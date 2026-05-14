@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /api/
+
+# Se não for um arquivo ou diretório real, manda para index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
