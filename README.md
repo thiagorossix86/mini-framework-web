@@ -46,7 +46,9 @@ Clone o repositório.
 
 Na pasta /api, execute composer install.
 
-Crie o arquivo /api/.env baseado no /api/.env.example.
+Renomeie o arquivo /api/env-example para .env
+
+Renomeie o arquivo /api/htaccess-example para .htaccess
 
 Configure seu VirtualHost para apontar para a raiz do projeto e certifique-se de que o AllowOverride All esteja habilitado no Apache.
 
