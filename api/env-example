@@ -1,6 +1,6 @@
 #CONFIGURAÇÃO BANCO DE DADOS
 DB_HOST=localhost
-DB_NAME=thiagorossi
+DB_NAME=<nome-banco-dados>
 DB_USER=root
-DB_PASS=toor
+DB_PASS=<senha>
 DB_CHARSET=utf8mb4
