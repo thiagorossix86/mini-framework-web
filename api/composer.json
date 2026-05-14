@@ -1,0 +1,14 @@
+{
+    "name": "thiagorossi/contrato-api",
+    "description": "Backend Clean Core para SaaS Jurídico",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
